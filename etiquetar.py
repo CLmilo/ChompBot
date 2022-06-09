@@ -21,7 +21,7 @@ for user in users:
     if str(user.bot).strip() == "False":
         lista_usuarios_id.append(user.id)
         lista_usuarios_nombre.append(user.first_name)
-        print(str(user.id) + user.first_name)
+        #print(str(user.id) + user.first_name)
 
 texto = ""
 for i in range(len(lista_usuarios_id)):
